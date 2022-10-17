@@ -4,3 +4,109 @@ body{
     color: #7f8c8d;
     line-height: 1.7;
 }
+
+p{
+    margin-top: 6px;
+}
+
+h1, h2, h3, h4, label{
+    color: #45474f;
+}
+
+h1{
+    font-size: 54px;
+    line-height: 1.2;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+h3, h4, strong{
+    font-weight: 600;
+}
+
+h3{
+    font-size: 18px;
+}
+
+/* Kolumny, kontenery, sekcje */
+.col-one-third{
+    width: calc(100%/3);
+    float: left;
+}
+
+.col-half{
+    width: 50%;
+    float: left;
+}
+
+section{
+    clear: both;
+    padding: 90px 0;
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+/* Przyciski */
+.button{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 16px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-light{
+    background-color: #fff;
+    color: #000;
+}
+
+.button-dark{
+    background-color: #a1d76f;
+    color: #fff;
+}
+
+/* Tymczasowy styl dla bannera */
+.banner{
+    background-color: #000;
+}
+
+/* Nagłówek strony */
+.top{
+    height: 60px;
+    background-color: #34495e;
+}
+
+.top a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.main-menu{
+    float: right;
+}
+
+.main-menu li{
+    float: left;
+    line-height: 60px;
+    padding: 0 10px;
+}
