@@ -33,22 +33,14 @@ h3{
 }
 
 /* Kolumny, kontenery, sekcje */
-.col-one-third,
-.col-half{
-    width: 100%;
-    float: none;
+.col-one-third{
+    width: calc(100%/3);
+    float: left;
 }
 
-@media screen and (min-width: 960px) {
-    .col-one-third{
-        width: calc(100%/3);
-        float: left;
-    }
-
-    .col-half{
-        width: 50%;
-        float: left;
-    }
+.col-half{
+    width: 50%;
+    float: left;
 }
 
 section{
