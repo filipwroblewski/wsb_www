@@ -9,7 +9,7 @@ p{
     margin-top: 6px;
 }
 
-h1, h2, h3, h4, label{
+h2, h3, h4, label{
     color: #45474f;
 }
 
@@ -24,7 +24,7 @@ h2{
     text-transform: uppercase;
 }
 
-h3, h4, strong{
+h1, h3, h4, strong{
     font-weight: 600;
 }
 
@@ -80,7 +80,11 @@ section{
 
 /* Tymczasowy styl dla bannera */
 .banner{
-    background-color: #000;
+    background: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 200px 0;
 }
 
 /* Nagłówek strony */
@@ -109,4 +113,8 @@ section{
     float: left;
     line-height: 60px;
     padding: 0 10px;
+}
+
+.banner h1{
+    margin-bottom: 30px;
 }
